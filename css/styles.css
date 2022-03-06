@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lobster&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+}
+.sign-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem;
+}
+.sign-in-nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15rem;
+}
+.sign-in-nav-links li {
+  list-style-type: none;
+  padding: 0.2rem 0.5rem;
+}
+.line {
+  height: 13px;
+  width: 1.1px;
+  background-color: black;
+}
+.jordan-converse-logo {
+  margin: 0 15rem;
+}
+
+/* Dropdown Nav */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 15rem;
+  padding: 0.7rem 0;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown li {
+  list-style-type: none;
+  padding: 0 0.8rem;
+}
+.dropdown li a {
+  text-decoration: none;
+  color: black;
+}
+.search input {
+  padding: 0.5rem 0;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: lightgray;
+}
+
+/* Carousel */
+.carousel__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  background-color: lightgray;
+}
+
+/* Main Navigation */
+.menu__nav__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 1rem 0;
+}
+.menu__nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 8;
+}
+.menu__nav-links li {
+  list-style-type: none;
+  padding: 0 0.5rem;
+}
